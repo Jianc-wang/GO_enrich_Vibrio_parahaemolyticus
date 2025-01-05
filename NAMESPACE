@@ -1,0 +1,16 @@
+import(methods)
+import(AnnotationDbi)
+
+### Only put what is statically exported here. All the AnnObj instances
+### created at load time are dynamically exported (refer to R/zzz.R for
+### the details).
+export(
+    org.Vparahaemolyticus.eg,
+    org.Vparahaemolyticus.eg_dbconn,
+    org.Vparahaemolyticus.eg_dbfile,
+    org.Vparahaemolyticus.eg_dbschema,
+    org.Vparahaemolyticus.eg_dbInfo,
+
+    org.Vparahaemolyticus.egORGANISM
+)
+
